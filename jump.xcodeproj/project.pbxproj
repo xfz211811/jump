@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF86ABB11ABE85CF008F2942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86ABB01ABE85CF008F2942 /* main.m */; };
+		AF86ABB41ABE85CF008F2942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86ABB31ABE85CF008F2942 /* AppDelegate.m */; };
+		AF86ABB71ABE85CF008F2942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86ABB61ABE85CF008F2942 /* ViewController.m */; };
+		AF86ABBA1ABE85CF008F2942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF86ABB81ABE85CF008F2942 /* Main.storyboard */; };
+		AF86ABBC1ABE85CF008F2942 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF86ABBB1ABE85CF008F2942 /* Images.xcassets */; };
+		AF86ABBF1ABE85CF008F2942 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF86ABBD1ABE85CF008F2942 /* LaunchScreen.xib */; };
+		AF86ABCB1ABE85D0008F2942 /* jumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86ABCA1ABE85D0008F2942 /* jumpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF86ABC51ABE85D0008F2942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF86ABA31ABE85CF008F2942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF86ABAA1ABE85CF008F2942;
+			remoteInfo = jump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF86ABAB1ABE85CF008F2942 /* jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF86ABAF1ABE85CF008F2942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF86ABB01ABE85CF008F2942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF86ABB21ABE85CF008F2942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF86ABB31ABE85CF008F2942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF86ABB51ABE85CF008F2942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AF86ABB61ABE85CF008F2942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF86ABB91ABE85CF008F2942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF86ABBB1ABE85CF008F2942 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AF86ABBE1ABE85CF008F2942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AF86ABC41ABE85D0008F2942 /* jumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF86ABC91ABE85D0008F2942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF86ABCA1ABE85D0008F2942 /* jumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jumpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF86ABA81ABE85CF008F2942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF86ABC11ABE85D0008F2942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF86ABA21ABE85CF008F2942 = {
+			isa = PBXGroup;
+			children = (
+				AF86ABAD1ABE85CF008F2942 /* jump */,
+				AF86ABC71ABE85D0008F2942 /* jumpTests */,
+				AF86ABAC1ABE85CF008F2942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF86ABAC1ABE85CF008F2942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF86ABAB1ABE85CF008F2942 /* jump.app */,
+				AF86ABC41ABE85D0008F2942 /* jumpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF86ABAD1ABE85CF008F2942 /* jump */ = {
+			isa = PBXGroup;
+			children = (
+				AF86ABB21ABE85CF008F2942 /* AppDelegate.h */,
+				AF86ABB31ABE85CF008F2942 /* AppDelegate.m */,
+				AF86ABB51ABE85CF008F2942 /* ViewController.h */,
+				AF86ABB61ABE85CF008F2942 /* ViewController.m */,
+				AF86ABB81ABE85CF008F2942 /* Main.storyboard */,
+				AF86ABBB1ABE85CF008F2942 /* Images.xcassets */,
+				AF86ABBD1ABE85CF008F2942 /* LaunchScreen.xib */,
+				AF86ABAE1ABE85CF008F2942 /* Supporting Files */,
+			);
+			path = jump;
+			sourceTree = "<group>";
+		};
+		AF86ABAE1ABE85CF008F2942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF86ABAF1ABE85CF008F2942 /* Info.plist */,
+				AF86ABB01ABE85CF008F2942 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF86ABC71ABE85D0008F2942 /* jumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF86ABCA1ABE85D0008F2942 /* jumpTests.m */,
+				AF86ABC81ABE85D0008F2942 /* Supporting Files */,
+			);
+			path = jumpTests;
+			sourceTree = "<group>";
+		};
+		AF86ABC81ABE85D0008F2942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF86ABC91ABE85D0008F2942 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF86ABAA1ABE85CF008F2942 /* jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF86ABCE1ABE85D0008F2942 /* Build configuration list for PBXNativeTarget "jump" */;
+			buildPhases = (
+				AF86ABA71ABE85CF008F2942 /* Sources */,
+				AF86ABA81ABE85CF008F2942 /* Frameworks */,
+				AF86ABA91ABE85CF008F2942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jump;
+			productName = jump;
+			productReference = AF86ABAB1ABE85CF008F2942 /* jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF86ABC31ABE85D0008F2942 /* jumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF86ABD11ABE85D0008F2942 /* Build configuration list for PBXNativeTarget "jumpTests" */;
+			buildPhases = (
+				AF86ABC01ABE85D0008F2942 /* Sources */,
+				AF86ABC11ABE85D0008F2942 /* Frameworks */,
+				AF86ABC21ABE85D0008F2942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF86ABC61ABE85D0008F2942 /* PBXTargetDependency */,
+			);
+			name = jumpTests;
+			productName = jumpTests;
+			productReference = AF86ABC41ABE85D0008F2942 /* jumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF86ABA31ABE85CF008F2942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "徐方舟";
+				TargetAttributes = {
+					AF86ABAA1ABE85CF008F2942 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					AF86ABC31ABE85D0008F2942 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = AF86ABAA1ABE85CF008F2942;
+					};
+				};
+			};
+			buildConfigurationList = AF86ABA61ABE85CF008F2942 /* Build configuration list for PBXProject "jump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF86ABA21ABE85CF008F2942;
+			productRefGroup = AF86ABAC1ABE85CF008F2942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF86ABAA1ABE85CF008F2942 /* jump */,
+				AF86ABC31ABE85D0008F2942 /* jumpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF86ABA91ABE85CF008F2942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF86ABBA1ABE85CF008F2942 /* Main.storyboard in Resources */,
+				AF86ABBF1ABE85CF008F2942 /* LaunchScreen.xib in Resources */,
+				AF86ABBC1ABE85CF008F2942 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF86ABC21ABE85D0008F2942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF86ABA71ABE85CF008F2942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF86ABB71ABE85CF008F2942 /* ViewController.m in Sources */,
+				AF86ABB41ABE85CF008F2942 /* AppDelegate.m in Sources */,
+				AF86ABB11ABE85CF008F2942 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF86ABC01ABE85D0008F2942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF86ABCB1ABE85D0008F2942 /* jumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF86ABC61ABE85D0008F2942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF86ABAA1ABE85CF008F2942 /* jump */;
+			targetProxy = AF86ABC51ABE85D0008F2942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF86ABB81ABE85CF008F2942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF86ABB91ABE85CF008F2942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF86ABBD1ABE85CF008F2942 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF86ABBE1ABE85CF008F2942 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF86ABCC1ABE85D0008F2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF86ABCD1ABE85D0008F2942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF86ABCF1ABE85D0008F2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF86ABD01ABE85D0008F2942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AF86ABD21ABE85D0008F2942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = jumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jump.app/jump";
+			};
+			name = Debug;
+		};
+		AF86ABD31ABE85D0008F2942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = jumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jump.app/jump";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF86ABA61ABE85CF008F2942 /* Build configuration list for PBXProject "jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF86ABCC1ABE85D0008F2942 /* Debug */,
+				AF86ABCD1ABE85D0008F2942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF86ABCE1ABE85D0008F2942 /* Build configuration list for PBXNativeTarget "jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF86ABCF1ABE85D0008F2942 /* Debug */,
+				AF86ABD01ABE85D0008F2942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF86ABD11ABE85D0008F2942 /* Build configuration list for PBXNativeTarget "jumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF86ABD21ABE85D0008F2942 /* Debug */,
+				AF86ABD31ABE85D0008F2942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF86ABA31ABE85CF008F2942 /* Project object */;
+}
