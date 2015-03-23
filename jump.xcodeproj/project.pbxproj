@@ -19,6 +19,10 @@
 		AF86ABE31ABE8618008F2942 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF86ABE21ABE8618008F2942 /* MainInterface.storyboard */; };
 		AF86ABE61ABE8618008F2942 /* today-jump.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF86ABD81ABE8618008F2942 /* today-jump.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AF86ABEC1ABE869B008F2942 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF86ABEB1ABE869B008F2942 /* StoreKit.framework */; };
+		AFEC36461AC0645400D20179 /* HTKDragAndDropCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC363E1AC0645400D20179 /* HTKDragAndDropCollectionViewController.m */; };
+		AFEC36471AC0645400D20179 /* HTKDragAndDropCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC36401AC0645400D20179 /* HTKDragAndDropCollectionViewLayout.m */; };
+		AFEC36481AC0645400D20179 /* HTKDraggableCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC36431AC0645400D20179 /* HTKDraggableCollectionViewCell.m */; };
+		AFEC36491AC0645400D20179 /* UIView+GMGridViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEC36451AC0645400D20179 /* UIView+GMGridViewAdditions.m */; };
 		EEE4981EA57E3BA84C7B4B7E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5A8C5E6BC34A8AB7113D7A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +81,15 @@
 		AF86ABEB1ABE869B008F2942 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		AF86ABED1ABE86A5008F2942 /* jump.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = jump.entitlements; sourceTree = "<group>"; };
 		AF86ABEE1ABE86B9008F2942 /* today-jump.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "today-jump.entitlements"; sourceTree = "<group>"; };
+		AFEC363D1AC0645400D20179 /* HTKDragAndDropCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDragAndDropCollectionViewController.h; sourceTree = "<group>"; };
+		AFEC363E1AC0645400D20179 /* HTKDragAndDropCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKDragAndDropCollectionViewController.m; sourceTree = "<group>"; };
+		AFEC363F1AC0645400D20179 /* HTKDragAndDropCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDragAndDropCollectionViewLayout.h; sourceTree = "<group>"; };
+		AFEC36401AC0645400D20179 /* HTKDragAndDropCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKDragAndDropCollectionViewLayout.m; sourceTree = "<group>"; };
+		AFEC36411AC0645400D20179 /* HTKDragAndDropCollectionViewLayoutConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDragAndDropCollectionViewLayoutConstants.h; sourceTree = "<group>"; };
+		AFEC36421AC0645400D20179 /* HTKDraggableCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDraggableCollectionViewCell.h; sourceTree = "<group>"; };
+		AFEC36431AC0645400D20179 /* HTKDraggableCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKDraggableCollectionViewCell.m; sourceTree = "<group>"; };
+		AFEC36441AC0645400D20179 /* UIView+GMGridViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GMGridViewAdditions.h"; sourceTree = "<group>"; };
+		AFEC36451AC0645400D20179 /* UIView+GMGridViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GMGridViewAdditions.m"; sourceTree = "<group>"; };
 		D07593C1641E77667B581F68 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EC5A8C5E6BC34A8AB7113D7A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +125,7 @@
 		AF86ABA21ABE85CF008F2942 = {
 			isa = PBXGroup;
 			children = (
+				AFEC363C1AC0645400D20179 /* HTKDragAndDropCollectionViewLayout */,
 				AF86ABAD1ABE85CF008F2942 /* jump */,
 				AF86ABC71ABE85D0008F2942 /* jumpTests */,
 				AF86ABDC1ABE8618008F2942 /* today-jump */,
@@ -201,6 +215,22 @@
 				AF86ABDE1ABE8618008F2942 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFEC363C1AC0645400D20179 /* HTKDragAndDropCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AFEC363D1AC0645400D20179 /* HTKDragAndDropCollectionViewController.h */,
+				AFEC363E1AC0645400D20179 /* HTKDragAndDropCollectionViewController.m */,
+				AFEC363F1AC0645400D20179 /* HTKDragAndDropCollectionViewLayout.h */,
+				AFEC36401AC0645400D20179 /* HTKDragAndDropCollectionViewLayout.m */,
+				AFEC36411AC0645400D20179 /* HTKDragAndDropCollectionViewLayoutConstants.h */,
+				AFEC36421AC0645400D20179 /* HTKDraggableCollectionViewCell.h */,
+				AFEC36431AC0645400D20179 /* HTKDraggableCollectionViewCell.m */,
+				AFEC36441AC0645400D20179 /* UIView+GMGridViewAdditions.h */,
+				AFEC36451AC0645400D20179 /* UIView+GMGridViewAdditions.m */,
+			);
+			path = HTKDragAndDropCollectionViewLayout;
 			sourceTree = "<group>";
 		};
 		F4388C0DD66285CF036A1C93 /* Pods */ = {
@@ -394,8 +424,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF86ABB71ABE85CF008F2942 /* ViewController.m in Sources */,
+				AFEC36471AC0645400D20179 /* HTKDragAndDropCollectionViewLayout.m in Sources */,
+				AFEC36481AC0645400D20179 /* HTKDraggableCollectionViewCell.m in Sources */,
 				AF86ABB41ABE85CF008F2942 /* AppDelegate.m in Sources */,
 				AF86ABB11ABE85CF008F2942 /* main.m in Sources */,
+				AFEC36491AC0645400D20179 /* UIView+GMGridViewAdditions.m in Sources */,
+				AFEC36461AC0645400D20179 /* HTKDragAndDropCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
